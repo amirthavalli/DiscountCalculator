@@ -20,7 +20,8 @@ namespace DiscountCalculator.Data.Repository
             User.Columns.Add("Name");
             User.Columns.Add("Password");
 
-            User.Rows.Add("default", "password");
+            User.Rows.Add("TestUser", "test");
+            User.Rows.Add("TestUser2", "test2");
         }
 
         public bool AuthenticateUser(User userInput)

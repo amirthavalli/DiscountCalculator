@@ -15,7 +15,7 @@ namespace DiscountCalculator
         {
             Program startApplication = new Program();
             Console.WriteLine("Please enter your credentials! ");
-            startApplication.Login();
+            startApplication.Login(); // Use login uname as Testuser and password test1
         }
 
         private void Login()
